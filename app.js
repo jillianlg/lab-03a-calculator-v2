@@ -12,5 +12,9 @@ addButton.addEventListener('click', () => {
     const value2 = addInput2.value;
     console.log(value1, value2);
 
+    const input1Number = Number(value1);
+    const input2Number = Number(value2);
+    console.log(typeof input1Number, typeof input2Number);
+
 });
   
