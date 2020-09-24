@@ -16,5 +16,7 @@ addButton.addEventListener('click', () => {
     const input2Number = Number(value2);
     console.log(typeof input1Number, typeof input2Number);
 
+    const sum = input1Number + input2Number;
+    console.log(sum);
 });
   
