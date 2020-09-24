@@ -16,10 +16,10 @@ addButton.addEventListener('click', () => {
     const input2Number = Number(value2);
     console.log(typeof input1Number, typeof input2Number);
 
-    const sum = input1Number + input2Number;
-    console.log(sum);
+    const add = input1Number + input2Number;
+    console.log(add);
 
-    addTotal.textContent = sum;
+    addTotal.textContent = add;
 });
   
 
@@ -41,10 +41,10 @@ subButton.addEventListener('click', () => {
     const input2Number = Number(value2);
     console.log(typeof input1Number, typeof input2Number);
 
-    const sum = input1Number - input2Number;
-    console.log(sum);
+    const sub = input1Number - input2Number;
+    console.log(sub);
 
-    subTotal.textContent = sum;
+    subTotal.textContent = sub;
 });
 
 // MULTIPLY import functions and grab DOM elements
@@ -65,10 +65,10 @@ mulButton.addEventListener('click', () => {
     const input2Number = Number(value2);
     console.log(typeof input1Number, typeof input2Number);
 
-    const sum = input1Number * input2Number;
-    console.log(sum);
+    const mul = input1Number * input2Number;
+    console.log(mul);
 
-    mulTotal.textContent = sum;
+    mulTotal.textContent = mul;
 });
 
 // DIVIDE import functions and grab DOM elements
@@ -89,8 +89,8 @@ divButton.addEventListener('click', () => {
     const input2Number = Number(value2);
     console.log(typeof input1Number, typeof input2Number);
 
-    const sum = input1Number / input2Number;
-    console.log(sum);
+    const div = input1Number / input2Number;
+    console.log(div);
 
-    divTotal.textContent = sum;
+    divTotal.textContent = div;
 });
