@@ -75,7 +75,7 @@ mulButton.addEventListener('click', () => {
 const divInput1 = document.getElementById('div-input-1');
 const divInput2 = document.getElementById('div-input-2');
 const divButton = document.getElementById('div-button');
-// const divTotal = document.getElementById('div-total');
+const divTotal = document.getElementById('div-total');
 
 // initialize state
 
@@ -92,4 +92,5 @@ divButton.addEventListener('click', () => {
     const sum = input1Number / input2Number;
     console.log(sum);
 
+    divTotal.textContent = sum;
 });
