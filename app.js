@@ -27,7 +27,7 @@ addButton.addEventListener('click', () => {
 const subInput1 = document.getElementById('sub-input-1');
 const subInput2 = document.getElementById('sub-input-2');
 const subButton = document.getElementById('sub-button');
-// const subTotal = document.getElementById('sub-total');
+const subTotal = document.getElementById('sub-total');
 
 // initialize state
 
@@ -44,4 +44,5 @@ subButton.addEventListener('click', () => {
     const sum = input1Number + input2Number;
     console.log(sum);
 
+    subTotal.textContent = sum;
 });
