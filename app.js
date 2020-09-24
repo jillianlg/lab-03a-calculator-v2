@@ -46,3 +46,18 @@ subButton.addEventListener('click', () => {
 
     subTotal.textContent = sum;
 });
+
+// import functions and grab DOM elements
+const mulInput1 = document.getElementById('mul-input-1');
+const mulInput2 = document.getElementById('mul-input-2');
+const mulButton = document.getElementById('mul-button');
+// const mulTotal = document.getElementById('mul-total');
+
+// initialize state
+
+// set event listeners to update state and DOM
+mulButton.addEventListener('click', () => {
+    const value1 = mulInput1.value;
+    const value2 = mulInput2.value;
+    console.log(value1, value2);
+});
