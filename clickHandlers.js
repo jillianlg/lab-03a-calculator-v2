@@ -52,7 +52,6 @@ export function handleDivClick() {
     const value1 = divInput1.value;
     const value2 = divInput2.value;
 
-
     const div = divTwoNumbers(value1, value2);
 
     divTotal.textContent = div;
