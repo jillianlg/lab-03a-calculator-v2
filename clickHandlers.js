@@ -1,4 +1,4 @@
-import { addTwoNumbers, subTwoNumbers, mulTwoNumbers } from './mathUtils.js';
+import { addTwoNumbers, subTwoNumbers, mulTwoNumbers, divTwoNumbers } from './mathUtils.js';
 
 
 // ADDITION 
@@ -29,7 +29,6 @@ export function handleSubClick() {
     subTotal.textContent = sub;
 }
     
-
 // MULTIPLY 
 const mulInput1 = document.getElementById('mul-input-1');
 const mulInput2 = document.getElementById('mul-input-2');
@@ -44,5 +43,17 @@ export function handleMulClick() {
     mulTotal.textContent = mul;
 }
     
-
 // DIVIDE 
+const divInput1 = document.getElementById('div-input-1');
+const divInput2 = document.getElementById('div-input-2');
+const divTotal = document.getElementById('div-total');
+
+export function handleDivClick() {
+    const value1 = divInput1.value;
+    const value2 = divInput2.value;
+
+
+    const div = divTwoNumbers(value1, value2);
+
+    divTotal.textContent = div;
+}
