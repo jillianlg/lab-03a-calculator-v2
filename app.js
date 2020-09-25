@@ -1,26 +1,23 @@
-// ADDITION import functions and grab DOM elements
-const addInput1 = document.getElementById('add-input-1');
-const addInput2 = document.getElementById('add-input-2');
+// import functions and grab DOM elements
+import {
+  handleAddClick
+} from './clickHandlers.js'
+
+
+// set event listeners to update state and DOM
 const addButton = document.getElementById('add-button');
-const addTotal = document.getElementById('add-total');
 
-// initialize state
 
-// ADDITION set event listeners to update state and DOM
-addButton.addEventListener('click', () => {
-    const value1 = addInput1.value;
-    const value2 = addInput2.value;
-    console.log(value1, value2);
 
-    const input1Number = Number(value1);
-    const input2Number = Number(value2);
-    console.log(typeof input1Number, typeof input2Number);
+addButton.addEventListener('click', (handleAddClick);
 
-    const add = input1Number + input2Number;
-    console.log(add);
 
-    addTotal.textContent = add;
-});
+    // const input1Number = Number(value1);
+    // const input2Number = Number(value2);
+
+    // const add = input1Number + input2Number;
+
+    // addTotal.textContent = add;
   
 
 // SUBTRACTION import functions and grab DOM elements
