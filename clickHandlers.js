@@ -39,7 +39,7 @@ export function handleMulClick() {
     const value1 = mulInput1.value;
     const value2 = mulInput2.value;
 
-    const mul = mulTwoNumbers(value1 * value2);
+    const mul = mulTwoNumbers(value1, value2);
 
     mulTotal.textContent = mul;
 }

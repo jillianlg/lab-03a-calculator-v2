@@ -38,8 +38,8 @@ test('should return 4 if passed 9 and 5', (expect) => {
 // Multiply TEST
 test('should return 20 if passed 4 and 5', (expect) => {
     //Arrange
-    const expected = 20;
-    const firstNumber = 4;
+    const expected = 15;
+    const firstNumber = 3;
     const secondNumber = 5;
     
     //Act 

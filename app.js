@@ -2,7 +2,7 @@
 import {
     handleAddClick,
     handleSubClick,
-    handleMulClick
+    handleMulClick,
 } from './clickHandlers.js';
 
 
@@ -16,12 +16,7 @@ addButton.addEventListener('click', handleAddClick);
 subButton.addEventListener('click', handleSubClick);
 mulButton.addEventListener('click', handleMulClick);
 
-  
 
-// SUBTRACTION import functions and grab DOM elements
-
-
-// MULTIPLY import functions and grab DOM elements
 
 
 // DIVIDE import functions and grab DOM elements
