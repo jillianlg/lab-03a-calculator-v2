@@ -11,10 +11,10 @@ export function subTwoNumbers(firstNumber, secondNumber) {
 
 // MULTIPLY function
 export function mulTwoNumbers(firstNumber, secondNumber) {
-    return firstNumber - secondNumber;
+    return firstNumber * secondNumber;
 }
 
 // DIVIDE function
 export function divTwoNumbers(firstNumber, secondNumber) {
-    return firstNumber - secondNumber;
+    return firstNumber / secondNumber;
 }
