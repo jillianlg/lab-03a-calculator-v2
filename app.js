@@ -4,7 +4,7 @@ import {
 } from './clickHandlers.js';
 
 
-// set event listeners to update state and DOM
+// ADDITION set event listeners to update state and DOM
 const addButton = document.getElementById('add-button');
 
 
