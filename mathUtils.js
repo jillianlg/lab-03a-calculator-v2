@@ -1,3 +1,5 @@
-export function addTwonumbers(firstNumber, secondNumber) {
+
+// ADDITION function
+export function addTwoNumbers(firstNumber, secondNumber) {
     return firstNumber + secondNumber;
 }

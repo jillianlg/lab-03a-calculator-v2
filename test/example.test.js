@@ -3,6 +3,8 @@
 
 const test = QUnit.test;
 
+
+// ADDITION TEST
 test('should return 7 if passed 3 and 4', (expect) => {
     //Arrange
     // Set up your arguments and expectations
