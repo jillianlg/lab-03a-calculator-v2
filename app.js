@@ -2,18 +2,19 @@
 import {
     handleAddClick,
     handleSubClick,
+    handleMulClick
 } from './clickHandlers.js';
 
 
 // set event listeners to update state and DOM
 const addButton = document.getElementById('add-button');
 const subButton = document.getElementById('sub-button');
-
+const mulButton = document.getElementById('mul-button');
 
 // set event listeners to update state and DOM
 addButton.addEventListener('click', handleAddClick);
 subButton.addEventListener('click', handleSubClick);
-
+mulButton.addEventListener('click', handleMulClick);
 
   
 
@@ -21,28 +22,7 @@ subButton.addEventListener('click', handleSubClick);
 
 
 // MULTIPLY import functions and grab DOM elements
-const mulInput1 = document.getElementById('mul-input-1');
-const mulInput2 = document.getElementById('mul-input-2');
-const mulButton = document.getElementById('mul-button');
-const mulTotal = document.getElementById('mul-total');
 
-// initialize state
-
-// MULTIPLY set event listeners to update state and DOM
-mulButton.addEventListener('click', () => {
-    const value1 = mulInput1.value;
-    const value2 = mulInput2.value;
-    console.log(value1, value2);
-
-    const input1Number = Number(value1);
-    const input2Number = Number(value2);
-    console.log(typeof input1Number, typeof input2Number);
-
-    const mul = input1Number * input2Number;
-    console.log(mul);
-
-    mulTotal.textContent = mul;
-});
 
 // DIVIDE import functions and grab DOM elements
 const divInput1 = document.getElementById('div-input-1');
