@@ -1,5 +1,5 @@
 // IMPORT MODULES under test here:
-import { addTwoNumbers, subTwoNumbers, mulTwoNumbers } from '../mathUtils.js';
+import { addTwoNumbers, subTwoNumbers, mulTwoNumbers, divTwoNumbers } from '../mathUtils.js';
 
 const test = QUnit.test;
 
@@ -44,6 +44,20 @@ test('should return 20 if passed 4 and 5', (expect) => {
     
     //Act 
     const actual = mulTwoNumbers(firstNumber, secondNumber);
+
+    //Expect
+    expect.equal(actual, expected);
+});
+
+// Divide TEST
+test('should return 4 if passed 12 and 3', (expect) => {
+    //Arrange
+    const expected = 4;
+    const firstNumber = 12;
+    const secondNumber = 3;
+    
+    //Act 
+    const actual = divTwoNumbers(firstNumber, secondNumber);
 
     //Expect
     expect.equal(actual, expected);
