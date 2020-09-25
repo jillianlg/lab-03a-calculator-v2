@@ -1,5 +1,5 @@
 // IMPORT MODULES under test here:
-// import { example } from '../example.js';
+import { addTwoNumbers } from '../mathUtils.js';
 
 const test = QUnit.test;
 
@@ -8,7 +8,7 @@ const test = QUnit.test;
 test('should return 7 if passed 3 and 4', (expect) => {
     //Arrange
     // Set up your arguments and expectations
-    const expected =7;
+    const expected = 7;
     const firstNumber = 3;
     const secondNumber = 4;
     

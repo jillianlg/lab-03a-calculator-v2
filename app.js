@@ -1,7 +1,7 @@
 // import functions and grab DOM elements
 import {
-  handleAddClick
-} from './clickHandlers.js'
+    handleAddClick
+} from './clickHandlers.js';
 
 
 // set event listeners to update state and DOM
@@ -9,15 +9,11 @@ const addButton = document.getElementById('add-button');
 
 
 
-addButton.addEventListener('click', (handleAddClick);
+addButton.addEventListener('click', handleAddClick);
 
 
-    // const input1Number = Number(value1);
-    // const input2Number = Number(value2);
 
-    // const add = input1Number + input2Number;
 
-    // addTotal.textContent = add;
   
 
 // SUBTRACTION import functions and grab DOM elements
